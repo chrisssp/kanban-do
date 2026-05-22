@@ -1,4 +1,4 @@
-# Kanban Do — Mobile Kanban Board
+# Kanban Do — Quick Task Board
 
 <p align="center">
   <img src="https://img.shields.io/badge/Expo-52-000020?logo=expo&logoColor=white" alt="Expo">
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <em>Cross-platform kanban board app for task management with Material Design</em>
+  <em>Fast and simple kanban board for organizing quick tasks on the go</em>
 </p>
 
 <p align="center">
@@ -21,11 +21,11 @@
 
 ## About Kanban Do
 
-A cross-platform mobile kanban board application built with Expo and React Native Paper. Organize tasks into columns, track progress, and manage your workflow with a clean Material Design interface.
+A mobile app for quickly organizing tasks on a kanban board. Built with Expo and React Native Paper, it provides a simple, fast way to manage your daily tasks with a clean Material Design interface.
 
 ## Features
 
-- Kanban board with task management
+- Kanban board with quick task management
 - Create, edit, and delete tasks
 - Form validation with react-hook-form + yup
 - Material Design UI with React Native Paper
