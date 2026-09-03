@@ -1,50 +1,111 @@
-# Welcome to your Expo app 👋
+# Kanban Do — Quick Task Board
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  <img src="https://img.shields.io/badge/Expo-57-000020?logo=expo&logoColor=white" alt="Expo">
+  <img src="https://img.shields.io/badge/React_Native-0.79-61DAFB?logo=react&logoColor=white" alt="React Native">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/React_Native_Paper-6750A4?logo=material-design&logoColor=white" alt="React Native Paper">
+  <img src="https://img.shields.io/badge/License-GPL_v3-0298c3?logo=gnu&logoColor=white" alt="GPL v3">
+</p>
 
-## Get started
+<p align="center">
+  <em>Fast and simple kanban board for organizing quick tasks on the go</em>
+</p>
 
-1. Install dependencies
+<p align="center">
+  <a href="README.md">🇬🇧 English</a> · <a href="README.es.md">🇪🇸 Español</a>
+</p>
 
-   ```bash
-   pnpm install
-   ```
-
-2. Start the app
-
-   ```bash
-   pnpm exec expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+---
 
 ```bash
+pnpm install
+```
+
+## About Kanban Do
+
+A mobile app for quickly organizing tasks on a kanban board. Built with Expo and React Native Paper, it provides a simple, fast way to manage your daily tasks with a clean Material Design interface.
+
+```bash
+pnpm exec expo start
+```
+
+## Features
+
+- Kanban board with quick task management
+- Create, edit, and delete tasks
+- Form validation with react-hook-form + yup
+- Material Design UI with React Native Paper
+- NativeWind styling
+- Cross-platform (iOS, Android)
+
+## Quick Start
+
+### Prerequisites
+
+- Node.js 18+
+- Expo Go (on device) or Android Studio / Xcode
+
+### Setup
+
+```bash
+git clone https://github.com/chrisssp/kanban-do.git
+cd kanban-do
+pnpm install
 pnpm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Development
 
-## Learn more
+```bash
+pnpm exec expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Scan the QR code with Expo Go, or press `a` for Android emulator / `i` for iOS simulator.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Testing
 
-## Join the community
+```bash
+pnpm test
+```
 
-Join our community of developers creating universal apps.
+## Tech Stack
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+| Layer | Technology |
+|-------|-----------|
+| Framework | Expo 57 + React Native 0.79 |
+| Language | TypeScript 5 |
+| UI Library | React Native Paper (Material Design 3) |
+| Styling | NativeWind (Tailwind CSS 3) |
+| Forms | react-hook-form + yup validation |
+| Navigation | Expo Router |
+| Testing | Jest + Jest Expo |
+
+## Project Structure
+
+```
+kanban-do/
+├── app/              # Expo Router pages
+├── components/       # Reusable UI components
+├── context/          # React context providers
+├── hooks/            # Custom React hooks
+├── services/         # API clients
+├── models/           # TypeScript types and interfaces
+├── assets/           # Images, fonts
+└── README.md
+```
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for branch naming, commit conventions, and PR workflow.
+
+## License
+
+This project is licensed under the GPL v3 — see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+**Authors:**
+
+- [@chrisssp](https://github.com/chrisssp) — Christian Serrano
